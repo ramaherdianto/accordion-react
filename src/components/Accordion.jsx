@@ -18,7 +18,7 @@ const Accordion = () => {
                             services we offer.
                         </p>
                     </section>
-                    <section className='mt-10 flex flex-col gap-12 w-full'>
+                    <section className='my-10 flex flex-col gap-12 md:gap-6 w-full'>
                         {Faqs.map((faq) => {
                             return (
                                 <AccordionItem

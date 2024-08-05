@@ -15,7 +15,7 @@ const AccordionItem = ({ faq, currOpen, setIsOpen }) => {
                 }`}
                 onClick={handleToggle}
             >
-                <div className='flex gap-4'>
+                <div className='flex gap-4 items-center'>
                     <span className='text-xl font-semibold bg-white w-14 h-7 rounded-full flex items-center justify-center'>
                         {isOpen ? '-' : '+'}
                     </span>
