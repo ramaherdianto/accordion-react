@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import Accordion from './components/Accordion';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <>
-            <h1 className='text-4xl font-semibold text-red-500'>Hello React</h1>
+            <main className='bg-gradient-to-tr from-[#f6e6e0] to-[#d5efff] min-h-screen mx-auto px-4 flex items-center justify-center py-10'>
+                <Accordion />
+            </main>
         </>
     );
 }
